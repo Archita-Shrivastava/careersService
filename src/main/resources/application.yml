@@ -1,0 +1,22 @@
+server:
+  port : 8082
+spring:
+  data:
+    cassandra:
+      keyspace-name: bootcamp
+      username: fmrZNmtycchuYZQFKZjUEJak
+      password: oP,L5zEXeHGqhauJJTnkituNcxE7TpAFW2Z_q13jtU.8MuWcnk43IiZXPaE6T9zdTOZalrG7wU4hu-ufc4Z8Pm.7.X37fn_JL1StsBG4AsAiY1PC5x+hTQNljRd0Cy2n
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+astra.db:
+  id: e30e48a1-1951-493d-bbf7-3d5be55e4a7f
+  region: asia-south1
+  keyspace: bootcamp
+  application.token: AstraCS:fmrZNmtycchuYZQFKZjUEJak:ff5d1d5584822333996a7caad251ce0172942d0d4629ae8d8f70aa49e1cb2094
+datastax.astra:
+  secure-connect-bundle: secure-connect.zip
+
